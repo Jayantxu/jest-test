@@ -1,0 +1,17 @@
+{
+  "name": "jesttest",
+  "version": "v1",
+  "description": "test JS use jest",
+  "main": "index.js",
+  "author": "Jayant",
+  "license": "yes",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.2.0",
+    "jest": "^26.2.0"
+  },
+  "scripts": {
+    "test": "jest -c .jest.config.js"
+  }
+}
